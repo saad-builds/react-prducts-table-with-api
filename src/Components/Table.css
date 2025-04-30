@@ -1,0 +1,39 @@
+/* Table.css */
+.table-container {
+    padding: 40px 20px;
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  thead {
+    background-color: #222;
+  }
+  
+  thead th {
+    padding: 16px;
+    text-align: center;
+    color: #00d084;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+  }
+  
+  tbody td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #2c2c2c;
+  }
+  
+  tbody tr:hover {
+    background-color: #2a2a2a;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
